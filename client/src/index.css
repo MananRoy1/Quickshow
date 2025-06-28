@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #f84565;
+  --color-primary-dull: #d63854;
+}
+
+@layer utilities {
+  .mask-fade-bottom {
+    mask-image: radial-gradient(ellipse at bottom center, black, transparent);
+    -webkit-mask-image: radial-gradient(
+      50% 50% at bottom center,
+      black,
+      transparent
+    );
+  }
+}
+
+* {
+  font-family: "Outfit", sans-serif;
+  scrollbar-width: thin;
+  scrollbar-color: #787777 #1e1e1e;
+}
+
+@font-face {
+  font-family: "AKONY";
+  src: url("/client/public/AKONY.otf") format("truetype");
+}
+
+.akony {
+  font-family: "AKONY", sans-serif;
+}
+
+body {
+  color: white;
+  background-color: #09090b;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}

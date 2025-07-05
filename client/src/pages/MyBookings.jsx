@@ -76,11 +76,11 @@ const MyBookings = () => {
             </div>
             <div className="text-sm">
               <p>
-                <span className="text-gray-400">Total Tickets:</span>
+                <span className="text-gray-400">Total Tickets: &nbsp;</span>
                 {item.bookedSeats.length}
               </p>
               <p>
-                <span className="text-gray-400">Seat Number:</span>
+                <span className="text-gray-400">Seat Number: &nbsp;</span>
                 {item.bookedSeats.join(", ")}
               </p>
             </div>

@@ -137,57 +137,7 @@ export const dummyShowsData = [
       { id: 878, name: "Science Fiction" },
       { id: 53, name: "Thriller" },
     ],
-    casts: [
-      {
-        name: "Leonardo DiCaprio",
-        profile_path:
-          "https://m.media-amazon.com/images/M/MV5BMjI0MTg3MzI0M15BMl5BanBnXkFtZTcwMzQyODU2Mw@@._V1_.jpg",
-      },
-      {
-        name: "Joseph Gordon-Levitt",
-        profile_path:
-          "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSU_o1gM3JrREujehG1hG5pStxMjaLdDPIzvP9X1tHWsoYwCdVNtI4-mX3lHlyGzCDjV2HFRY90eXzVjtTWp6vy7w",
-      },
-      {
-        name: "Ellen Page",
-        profile_path:
-          "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTy4s8OiNQ1VknF9SDOqiyhpgVH1tIxRRMb6NIFlo_hcGVo9zHZf3Rv-2suxGTU92TfRvClq0lK1NHkIQiSldUpnw",
-      },
-      {
-        name: "Tom Hardy",
-        profile_path:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWpipl7SFMui656li2r0_4FMuNWkMKfcI4TQ26YuBIkBzRMy4wZy1LRXIQxdWOOIs6Te0&usqp=CAU",
-      },
-      {
-        name: "Ken Watanabe",
-        profile_path: "https://ntvb.tmsimg.com/assets/assets/36606_v9_bb.jpg",
-      },
-      {
-        name: "Dileep Rao",
-        profile_path:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEo0baA-pae-6iQ4HrACRLwkPEjgQ-mAR6f6C7Iun0b4NN7Vdc",
-      },
-      {
-        name: "Cillian Murphy",
-        profile_path:
-          "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT2L_-3oIX0fDbAsEW3RacF6CdoeaW8CaeKRky0pr_HA86wS_8z8IR03rN4L_VoH9u5_1lBWEms-jkWTP9MpC8efg",
-      },
-      {
-        name: "Tom Berenger",
-        profile_path:
-          "https://ntvb.tmsimg.com/assets/assets/135_v9_bc.jpg?w=360&h=480",
-      },
-      {
-        name: "Michael Caine",
-        profile_path:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtL9TLOQqiUTdRBg4S9YeTmUeTg5vQMgMToX1nrrdkzIc0vYRm9KfBmOKCY2Jex4GtLQ3l3ZErBvZW9BpjOv8U0g",
-      },
-      {
-        name: "Marion Cotillard",
-        profile_path:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgQr_3mmVRbwrJemOtjNcH6c2ifsC0tYx49GPjO-J6gQt66kkBVcOMOv8FXcjVthGko_xUxKiMNtGSZa8blIlDQA",
-      },
-    ],
+    casts: dummyCastsData,
     release_date: "2025-07-16",
     original_language: "en",
     tagline: "Your mind is the scene of the crime.",
@@ -211,38 +161,7 @@ export const dummyShowsData = [
       { id: 18, name: "Drama" },
       { id: 878, name: "Science Fiction" },
     ],
-    casts: [
-      {
-        name: "Matthew McConaughey",
-        profile_path:
-          "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQWp11ZrN2PxTPVyZ0Tl75aDdqxqWBl5jSsprfYqXTWOS2LVJja_srWnfDoGvdmr5VR0OgTklbYHDI6ZaKBSKx0dg",
-      },
-      {
-        name: "Anne Hathaway",
-        profile_path:
-          "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSSPDvRKr_S73lXPwA7UaRbTIMdT28GydPYl3OpL8cJ9ttpxVRluwhQdpytQY4SFDacRTvp1YlsFlyWF11Jz2qMaw",
-      },
-      {
-        name: "Jessica Chastain",
-        profile_path:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1fYwhZeMxoLhwdGJHmgp2g1c0ouyjSQQpXmOS4VOza5PdBKDT9S4xDzCDcO4SpyXTPUM&usqp=CAU",
-      },
-      {
-        name: "Michael Caine",
-        profile_path:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtL9TLOQqiUTdRBg4S9YeTmUeTg5vQMgMToX1nrrdkzIc0vYRm9KfBmOKCY2Jex4GtLQ3l3ZErBvZW9BpjOv8U0g",
-      },
-      {
-        name: "Casey Affleck",
-        profile_path:
-          "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT8DzJ2JqoMaMpXGVC0u3qcfcmG2w1mvkscTb4P1LvG1j_CBw95M2SKOpDgg4emMRrBK8T9uFZZgvbYLSqSlrguIA",
-      },
-      {
-        name: "Ellen Burstyn",
-        profile_path:
-          "https://cdn.magzter.com/1626675679/1710923882/articles/3jyQb9GHD1710932723271/ELLEN-BURSTYN-AT-91-IM-BUSIER-THAN-EVER.jpg",
-      },
-    ],
+    casts: dummyCastsData,
     release_date: "2025-11-07",
     original_language: "en",
     tagline: "Mankind was born on Earth. It was never meant to die here.",
@@ -289,38 +208,7 @@ export const dummyShowsData = [
       { id: 80, name: "Crime" },
       { id: 18, name: "Drama" },
     ],
-    casts: [
-      {
-        name: "Christian Bale",
-        profile_path:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-hSaRZKBaXzDQPiz2-hB0X97KufFVPFtnhg&s",
-      },
-      {
-        name: "Heath Ledger",
-        profile_path:
-          "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSKFDHAANdgA92vdunkEZJ4rVPGQLntQ2LUVKA1BXGDOgJdsNIYAgezJu487BSuw96WXNz5fWJ52JL5dlM9hlDWpA",
-      },
-      {
-        name: "Aaron Eckhart",
-        profile_path:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTYJB4KcO3XINJ1QLQYZ4COolzC5nZ8LDGEQ&s",
-      },
-      {
-        name: "Michael Caine",
-        profile_path:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtL9TLOQqiUTdRBg4S9YeTmUeTg5vQMgMToX1nrrdkzIc0vYRm9KfBmOKCY2Jex4GtLQ3l3ZErBvZW9BpjOv8U0g",
-      },
-      {
-        name: "Maggie Gyllenhaal",
-        profile_path:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjr_xqSxLaxG4jxSGBlA1syUSdNnULsCmaJwWny0q13H29DuL_nv7MY_HGArE1B9pUl8HmSHdLzx5A9QvbOdVunw",
-      },
-      {
-        name: "Gary Oldman",
-        profile_path:
-          "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSpGcj82_lOY2DS81lVbLAB2cBl6ZdC9xS-p7CGgsrvmD3OKfupDDQYMiwB8l-CXiY0nzfK4w8G_gWV85TU24ZfTw",
-      },
-    ],
+    casts: dummyCastsData,
     release_date: "2025-07-18",
     original_language: "en",
     tagline: "Why So Serious?",

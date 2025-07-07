@@ -34,9 +34,7 @@ export const stripeWebhooks = async (request, response) => {
         // Send Confirmation email
         await inngest.send({
           name: "app/show.booked",
-          data: {
-            bookingId,
-          },
+          data: { bookingId },
         });
 
         break;

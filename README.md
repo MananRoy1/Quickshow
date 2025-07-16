@@ -75,7 +75,7 @@ npm run dev
 ```
 
 ### 4. Access the App
-- Client: [http://localhost:5173](http://localhost:5173)
+- Client: [http://localhost:5173]([http://localhost:5173](https://quickshow-main.vercel.app/))
 - Server: [http://localhost:5000](http://localhost:5000) (or as configured)
 
 ## Usage
